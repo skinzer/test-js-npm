@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+echo "testing"
 set -e
 
 d_name=test-js-scanning
