@@ -1,0 +1,5 @@
+# https://hub.docker.com/_/node/
+FROM node:6
+ADD . /workspace
+
+ENTRYPOINT /workspace/builder/run.sh
